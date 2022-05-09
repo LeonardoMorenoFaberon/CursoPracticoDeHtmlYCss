@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?lang=en&family=Product+Sans|Roboto:400,700');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+header{
+    height: 70px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav{
+    border: 1px solid green;
+    width: 20%;
+
+}
+ul{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+nav ul li{
+    list-style: none;
+    line-height: 1.1em;
+}
+
+section{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    background: url(chrome://new-tab-page/icons/googlemic_clr_24px.svg) no-repeat center;
+}
